@@ -1,0 +1,115 @@
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.language-selector {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.language-selector h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  color: #1a1a1a;
+}
+
+.language-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.language-button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border: 2px solid #646cff;
+  border-radius: 8px;
+  background-color: white;
+  color: #646cff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.language-button:hover {
+  background-color: #646cff;
+  color: white;
+  transform: translateY(-2px);
+}
+
+.language-button.active {
+  background-color: #646cff;
+  color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.text-display {
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #1a1a1a;
+  text-align: center;
+}
+
+.content {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+  text-align: justify;
+  white-space: pre-line;
+}
+
+.attribution {
+  border-top: 2px solid #e0e0e0;
+  padding-top: 1.5rem;
+  text-align: right;
+  color: #666;
+}
+
+.author {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.source {
+  font-style: italic;
+  margin-bottom: 0.25rem;
+  font-size: 0.9rem;
+}
+
+.date {
+  font-size: 0.875rem;
+  color: #888;
+}
+
+@media (max-width: 768px) {
+  .app {
+    padding: 1rem;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .content {
+    font-size: 1rem;
+    text-align: left;
+  }
+
+  .language-buttons {
+    flex-direction: column;
+  }
+
+  .language-button {
+    width: 100%;
+  }
+}
