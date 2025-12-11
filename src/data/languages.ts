@@ -156,5 +156,17 @@ export const languages: Language[] = [
       date: "Bhadra Purnima, DMCh, 1956, Bhagalpur",
     },
   },
+  {
+    code: "sk",
+    name: "Slovenčina",
+    englishName: "Slovak",
+    title: "Ananda Vani",
+    content: `Len Parama Puruša je Bytosť, ktorá je dostupná jednotlivým bytostiam na spoznanie. Ak má byť niečo spoznané – je to On a len On, a ak je potrebné o niečom rozmýšľať, tak o Ňom a len o Ňom. On je jediná nemeniteľná Bytosť. Za jeho hranícami neni nič, čo by sa dalo spoznať,– spoznať Jeho znamená spoznať všetko. Zárodky všetkého prejaveného aj neprejaveného vo Vesmíre sú uložené v Ňom. On je všeliekom na všetky neduhy.`,
+    attribution: {
+      author: "Šri Šri Anandamurti",
+      source: `"Subchašita samhracha", č.4, kp.4 "Pôvodná príčina stvorenia"`,
+      date: "Bchadra Purnima, DMČ, 1956, Bchahalpur",
+    },
+  },
   // Add more languages here
 ];
