@@ -168,5 +168,41 @@ export const languages: Language[] = [
       date: "Bchadra Purnima, DMČ, 1956, Bchahalpur",
     },
   },
+  {
+    code: "lv",
+    name: "Latviešu",
+    englishName: "Latvian",
+    title: "Ananda Vani",
+    content: `Tikai Parama Puruša ir Būtība, kas ir pieejama atsevišķām dzīvām būtnēm, lai to iepazītu. Ja vispār ir kaut kas, ko vajadzētu iepazīt, tad tas ir Viņš un tikai Viņš,un ja ir par kaut ko jādomā, tad par Viņu un tikai par Viņu. Viņš ir vienīgā nemainīgā Būtība. Aiz Viņa robežām nav nekā, ko varētu iepazīt — iepazīt Viņu nozīmē iepazīt visu ,kas ir . Visu izpausto un neizpausto sēklas visumā ir ieliktas Viņā. Viņš ir panaceja visām kaitēm.`,
+    attribution: {
+      author: "Šrī Šrī Anandamurtī",
+      source: `no "Subhašita Samgraha", 4. sējums, 4. nodaļa "Radīšanas sākotnējais cēlonis"`,
+      date: "Bhadra Pūrnimā, DMC, 1956, Bhagalpur",
+    },
+  },
+  {
+    code: "bg",
+    name: "Български",
+    englishName: "Bulgarian",
+    title: "Ананда Вани",
+    content: `Парама Пуруша е единствената познаваема същност за всяко едно същество. Ако нещо може да бъде познато, това е Той и само Той; ако може да се разсъждава върху някого, това е Той и само Той. Той е единствената неизменна същност. Няма нищо, което да се знае отвъд Него -  Неговото познаване е познаване на всичко. Семето на всичко проявено или непроявено във вселената е вградено в Него. Той е панацеята за всички болести.`,
+    attribution: {
+      author: "Шри Шри Анандамуртиджи",
+      source: `Субхасита Самграха, стр. 4, гл. 4 „Първопричината на сътворението"`,
+      date: "Бхадра Пурнима 1956 DMC, Бхагалпур",
+    },
+  },
+  {
+    code: "fr",
+    name: "Français",
+    englishName: "French",
+    title: "Ananda Vani",
+    content: `Seul le Parama Purusha est la véritable Essence, accessible à la connaissance des êtres individuels. Si quelque chose mérite d'être connu, c'est Lui, et Lui seul. Si l'on médite sur quelque chose, que ce soit sur Lui, et Lui seul. Il est l'unique Essence immuable. Au-delà de Lui, rien ne peut être connu – Le connaître, c'est tout connaître. En Lui résident les germes de tout ce qui est manifesté et non manifesté dans l'Univers. Il est le remède à tous les maux.`,
+    attribution: {
+      author: "Shri Shri Anandamurti",
+      source: `"Subhashita Samgraha", Partie 4, Chapitre 4 : La Cause Primordiale de la Création`,
+      date: "Bhadra Purnima, DMCh, 1956, Bhagalpur",
+    },
+  },
   // Add more languages here
 ];
