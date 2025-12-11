@@ -204,5 +204,17 @@ export const languages: Language[] = [
       date: "Bhadra Purnima, DMCh, 1956, Bhagalpur",
     },
   },
+  {
+    code: "sv",
+    name: "Svenska",
+    englishName: "Swedish",
+    title: "Ánanda Vánii",
+    content: `Parama Purusa är den enda kännbara varelsen för enhetsvarelser. Om något alls kan kännas till, är det Han, och Han allena; om någon ska tänkas på, är det Han, och Han allena. Han är den enda oföränderliga varelsen. Det finns ingenting alls att veta bortom Honom - att känna Honom är att veta allt. Fröet till vad som än är manifesterat eller omanifesterat i universum är inbäddat i Honom. Han är universalmedlet för alla krämpor.`,
+    attribution: {
+      author: "Shrii Shrii Ánandamúrtiji",
+      source: `Subhas'ita Samgraha, s. 4, kap. 4 "Skapelsens ursprungliga orsak"`,
+      date: "Bhadra Purnima 1956 DMC, Bhagalpur",
+    },
+  },
   // Add more languages here
 ];
