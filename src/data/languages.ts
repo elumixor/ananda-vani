@@ -132,5 +132,29 @@ export const languages: Language[] = [
       date: "Bhadra Púrnimá, 1956 DMC, Bhágalpúr",
     },
   },
+  {
+    code: "pl",
+    name: "Polski",
+    englishName: "Polish",
+    title: "Ananda Wani",
+    content: `Tylko Parama Purusza jest Esencją dostępną dla indywidualnych istot do poznania. Jeśli coś trzeba poznać-to on i tylko on, a jeśli już trzeba o czymś myśleć, to o nim i tylko o nim. On jest jedyną niezmienną Esencją. Poza Nim nie ma niczego do poznania – poznać Go to poznać wszystko. W Nim zasiane są nasiona wszystkiego, co przejawiło się i nie przejawiło we Wszechświecie. On jest panaceum na wszelkie dolegliwości.`,
+    attribution: {
+      author: "Sri Sri Anandamurti",
+      source: `„Subhashita Samgraha", część 4, rozdział 4 „Pierwotna Przyczyna Stworzenia"`,
+      date: "Bhadra Purnima, DMCh, 1956, Bhagalpur",
+    },
+  },
+  {
+    code: "it",
+    name: "Italiano",
+    englishName: "Italian",
+    title: "Ananda Vani",
+    content: `Solo Parama Purusha è l'Essenza accessibile alla conoscenza degli esseri individuali. Se c'è qualcosa da conoscere, è Lui e solo Lui, e se c'è qualcosa da contemplare, è Lui e solo Lui. Lui è l'unica Essenza immutabile. Oltre a Lui, non c'è nulla da conoscere: conoscerLo significa conoscere ogni cosa. I semi di tutto ciò che è manifesto e immanifesto nell'Universo sono piantati in Lui. Lui è la panacea per tutti i mali.`,
+    attribution: {
+      author: "Sri Sri Anandamurti",
+      source: `"Subhashita Samgraha", Parte 4, Capitolo 4 "La Causa Primordiale della Creazione"`,
+      date: "Bhadra Purnima, DMCh, 1956, Bhagalpur",
+    },
+  },
   // Add more languages here
 ];
